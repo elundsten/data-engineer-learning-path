@@ -69,7 +69,7 @@ display(spark
         .where("price < 200")
         .orderBy("price")
        )
-
+#Hej jag testar om jag kan commita
 # COMMAND ----------
 
 # MAGIC %md We'll go over the syntax for the DataFrame API later in the lesson, but you can see this builder design pattern allows us to chain a sequence of operations very similar to those we find in SQL.
